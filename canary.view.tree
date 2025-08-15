@@ -1,0 +1,44 @@
+$hd_canary $mol_page
+	title @ \Hyper Canary
+	targets? *
+	target_result*? 1
+	auto /
+		<= checking null
+	plugins /
+		<= Theme $mol_theme_auto
+	head /
+		<= Status_total $mol_chip title <= status_total \
+		<= Title
+		<= Add $mol_view sub /
+			<= Add_url $mol_string
+				hint @ \URL
+				value? <=> add_url? \
+				submit? <=> add_submit? null
+			<= Add_title $mol_string
+				hint @ \Title
+				value? <=> add_title? \
+				submit? <=> add_submit? null
+			<= Add_submit $mol_button_minor
+				hint @ \Add
+				click? <=> add_submit? null
+				sub /
+					<= Add_submit_icon $mol_icon_plus
+		<= Tools
+	tools /
+		<= Lights $mol_lights_toggle
+	body /
+		<= Target_list $mol_gallery items <= target_list /
+			<= Target*0 $mol_list rows <= target_rows* /
+				<= Target_main* $mol_view sub /
+					<= Target_status* $mol_view
+						sub / <= target_status* \
+					<= Target_url* $mol_link
+						title <= target_title* \
+						uri <= target_url* \
+					<= Target_remove* $mol_button_minor
+						click <=> target_remove* null
+						sub / <= Target_remove_icon* $mol_icon_close
+				<= Target_message* $mol_view
+					sub / <= target_message*? \
+				<= Target_moment* $mol_view
+					sub / <= target_moment*? <= waiting_hint @ \Waiting...
