@@ -28,7 +28,7 @@ namespace $.$$ {
 		@ $mol_mem
 		checking() {
 			
-			this.$.$mol_state_time.now( 60_000 )
+			this.$.$mol_state_time.now( 5 * 60 * 1000 )
 			
 			const targets = Object.keys( this.targets() ).reverse()
 			
