@@ -1,0 +1,18 @@
+$hd_canary_app_bar $mol_page
+	Head null
+	title @ \Мониторы
+	body /
+		<= Info $mol_deck
+			items /
+				<= My_monitor $hd_canary_app_monitor
+					home => home
+				<= Other_monitors $mol_book2_catalog
+					param \user
+					menu_title \Расшаренные мне
+					spreads <= users *
+				- <= Other_monitors $hd_canary_app_monitor_shared
+	Panel* $hd_canary_app_monitor
+		title <= panel_title* \diff
+		home <= selected_home* $hd_canary_app_home
+		Add null
+		Target_remove null

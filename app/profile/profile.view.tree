@@ -1,0 +1,15 @@
+$hd_canary_app_profile $mol_page
+	title @ \Private keys
+	key_size 144
+	bid_pass_long @ \> 7 letters
+	attr *
+		^
+		mol_theme \$mol_theme_special
+	body /
+		<= Current_profile $mol_labeler
+			title \Текущий профиль
+			content /
+				<= Current_profile_name_labeler $mol_labeler
+					title \Ваше имя:
+					content /
+						<= Current_name_string $mol_string value? <=> profile_name? \
