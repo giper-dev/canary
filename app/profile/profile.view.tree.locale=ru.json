@@ -1,10 +1,6 @@
 {
-	"$hd_canary_app_profile_title": "Профиль",
-	"$hd_canary_app_profile_bid_pass_long": "> 7 знаков",
-	"$hd_canary_app_profile_Expot_bid_text": "Ваш профиль хранится в браузере. Чтобы его не потерять или перенести на другое устройство, рекомендуется придумать надёжный пароль для его экспорта.",
-	"$hd_canary_app_profile_Password_field_name": "Пароль",
-	"$hd_canary_app_profile_Recall_field_name": "Подсказка к паролю",
-	"$hd_canary_app_profile_Export_link_title": "Эта ссылка содержит зашифрованный профиль. Сохраните её в безопасном месте. Используя эту ссылку вы сможете восстановить ваши ваш, если введёте тот же пароль.",
-	"$hd_canary_app_profile_Iport_descr_text": "Чтобы войти в профиль, введите пароль.\n**Если текущий профиль нигде не сохранен, то он будет потерян навсегда.**",
-	"$hd_canary_app_profile_impot_switch_title": "Войти"
+	"$hd_canary_app_profile_Current_profile_name_labeler_title": "Ваше имя:",
+	"$hd_canary_app_profile_Current_profile_title": "Текущий профиль",
+	"$hd_canary_app_profile_title": "Приватные ключи",
+	"$hd_canary_app_profile_bid_pass_long": "> 7 знаков"
 }

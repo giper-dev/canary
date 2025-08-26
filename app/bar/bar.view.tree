@@ -1,6 +1,6 @@
 $hd_canary_app_bar $mol_page
 	Head null
-	title @ \Мониторы
+	title @ \Monitors
 	body /
 		<= Info $mol_deck
 			items /
@@ -8,7 +8,7 @@ $hd_canary_app_bar $mol_page
 					home => home
 				<= Other_monitors $mol_book2_catalog
 					param \user
-					menu_title \Расшаренные мне
+					menu_title @ \Shared to me
 					spreads <= users *
 				- <= Other_monitors $hd_canary_app_monitor_shared
 	Panel* $hd_canary_app_monitor
