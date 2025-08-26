@@ -1,6 +1,7 @@
 $hd_canary_app $mol_book2_catalog
 	plugins /
 		<= Theme $mol_theme_auto
+		<= Favicon $mol_view
 	Menu_logo $mol_icon_bird
 	menu_tools /
 		<= Lighter $mol_lights_toggle
