@@ -1,3 +1,2 @@
-include \/hd/canary/app
 include \/mol/offline/install
 deploy \/hd/canary/static
