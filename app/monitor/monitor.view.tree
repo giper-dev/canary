@@ -3,7 +3,7 @@ $hd_canary_app_monitor $mol_page
 	Home_button $mol_button_minor
 		title \Домой
 		click <= go_to_home null
-	title <= panel_title @ \Мои мониторы
+	title <= panel_title @ \My monitors
 	targets? *
 	target_result*? 1
 	plugins /

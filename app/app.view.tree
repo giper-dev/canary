@@ -6,7 +6,7 @@ $hd_canary_app $mol_book2_catalog
 		<= Lighter $mol_lights_toggle
 		<= Share_hyoo $mol_button_share
 			title \
-			hint \Поделиться мониторами
+			hint @ \Share monitors
 			uri <= share_link \https://hyoo.ru
 			capture null
 		- <= Key_copy $mol_button_copy
