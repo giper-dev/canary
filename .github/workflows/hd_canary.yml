@@ -1,4 +1,4 @@
-name: $hd_canary
+name: $hd_canary_app
 
 #FIXME optional: change permissions if you don't want to allow everything
 # https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs#defining-access-for-the-github_token-permissions
@@ -21,8 +21,9 @@ jobs:
     - uses: hyoo-ru/mam_build@master2
       with:
         package: 'hd/canary'
+        modules: 'app'
     
     - uses: hyoo-ru/gh-deploy@v4.4.1
       if: github.ref == 'refs/heads/master'
       with:
-        folder: 'hd/canary/-'
+        folder: 'hd/canary/app/-'
