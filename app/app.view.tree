@@ -1,0 +1,18 @@
+$hd_canary_app $mol_book2_catalog
+	plugins /
+		<= Theme $mol_theme_auto
+	Menu_logo $mol_icon_bird
+	menu_tools /
+		<= Lighter $mol_lights_toggle
+		<= Share_hyoo $mol_button_share
+			title \
+			hint @ \Share monitors
+			uri <= share_link \https://hyoo.ru
+			capture null
+		- <= Key_copy $mol_button_copy
+			hint @ \Copy Public Key
+			text <= key_public \
+	menu_title @ \Hyper Canary
+	spreads *$mol_view
+		monitor <= List $hd_canary_app_bar
+		profile <= Profile $hd_canary_app_profile

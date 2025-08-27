@@ -1,9 +1,11 @@
-$hd_canary $mol_page
-	title @ \Hyper Canary
+$hd_canary_app_monitor $mol_page
+	home $hd_canary_app_home
+	Home_button $mol_button_minor
+		title \Домой
+		click <= go_to_home null
+	title <= panel_title @ \My monitors
 	targets? *
 	target_result*? 1
-	auto /
-		<= checking null
 	plugins /
 		<= Theme $mol_theme_auto
 	head /
@@ -24,8 +26,6 @@ $hd_canary $mol_page
 				sub /
 					<= Add_submit_icon $mol_icon_plus
 		<= Tools
-	tools /
-		<= Lights $mol_lights_toggle
 	body /
 		<= Target_list $mol_gallery items <= target_list /
 			<= Target*0 $mol_list rows <= target_rows* /
