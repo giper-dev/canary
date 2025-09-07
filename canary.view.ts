@@ -1,5 +1,5 @@
 namespace $.$$ {
-	export class $hd_canary extends $.$hd_canary {
+	export class $gd_canary extends $.$gd_canary {
 		
 		override targets( next?: Record< string, { title: string } > ) {
 			return this.$.$mol_state_local.value( 'targets', next ) ?? {}

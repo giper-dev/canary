@@ -1,6 +1,6 @@
 namespace $.$$ {
 	
-	$mol_style_define( $hd_canary, {
+	$mol_style_define( $gd_canary, {
 		
 		Add: {
 			flex: {
