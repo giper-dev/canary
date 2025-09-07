@@ -223,7 +223,7 @@ $mol_gallery $mol_view
 		items <= side_items* /$mol_view
 
 $gd_canary $mol_page
-	title @ \Hyper Canary
+	title @ \Giper Canary
 	targets? *
 	target_result*? 1
 	auto /
