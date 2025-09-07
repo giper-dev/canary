@@ -1,5 +1,5 @@
 $gd_canary $mol_page
-	title @ \Hyper Canary
+	title @ \Giper Canary
 	targets? *
 	target_result*? 1
 	auto /
