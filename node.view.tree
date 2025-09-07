@@ -222,7 +222,7 @@ $mol_gallery $mol_view
 			flexGrow <= side_size* \1
 		items <= side_items* /$mol_view
 
-$hd_canary $mol_page
+$gd_canary $mol_page
 	title @ \Hyper Canary
 	targets? *
 	target_result*? 1
