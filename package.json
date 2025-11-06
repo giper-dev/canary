@@ -176,6 +176,8 @@
     "$mol_support",
     "$mol_gallery",
     "$mol_fetch",
+    "$mol_rest_code",
+    "$mol_rest",
     "$mol_dom_parse",
     "$mol_time_moment",
     "$mol_time",
