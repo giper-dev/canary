@@ -1,4 +1,4 @@
-$gd_canary $mol_page
+$giper_canary $mol_page
 	title @ \Giper Canary
 	targets? *
 	target_result*? 1
