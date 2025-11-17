@@ -1,8 +1,8 @@
 {
-	"$gd_canary_Add_submit_hint": "Add",
-	"$gd_canary_Add_title_hint": "Title",
-	"$gd_canary_Add_url_hint": "URL",
-	"$gd_canary_title": "Giper Canary",
-	"$gd_canary_waiting_hint": "Waiting...",
+	"$giper_canary_Add_submit_hint": "Add",
+	"$giper_canary_Add_title_hint": "Title",
+	"$giper_canary_Add_url_hint": "URL",
+	"$giper_canary_title": "Giper Canary",
+	"$giper_canary_waiting_hint": "Waiting...",
 	"$mol_lights_toggle_hint": "Toggle lights"
 }

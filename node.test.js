@@ -6928,7 +6928,7 @@ var $;
 })($ || ($ = {}));
 
 ;
-	($.$gd_canary) = class $gd_canary extends ($.$mol_page) {
+	($.$giper_canary) = class $giper_canary extends ($.$mol_page) {
 		checking(){
 			return null;
 		}
@@ -6954,7 +6954,7 @@ var $;
 		}
 		Add_url(){
 			const obj = new this.$.$mol_string();
-			(obj.hint) = () => ((this.$.$mol_locale.text("$gd_canary_Add_url_hint")));
+			(obj.hint) = () => ((this.$.$mol_locale.text("$giper_canary_Add_url_hint")));
 			(obj.value) = (next) => ((this.add_url(next)));
 			(obj.submit) = (next) => ((this.add_submit(next)));
 			return obj;
@@ -6965,7 +6965,7 @@ var $;
 		}
 		Add_title(){
 			const obj = new this.$.$mol_string();
-			(obj.hint) = () => ((this.$.$mol_locale.text("$gd_canary_Add_title_hint")));
+			(obj.hint) = () => ((this.$.$mol_locale.text("$giper_canary_Add_title_hint")));
 			(obj.value) = (next) => ((this.add_title(next)));
 			(obj.submit) = (next) => ((this.add_submit(next)));
 			return obj;
@@ -6976,7 +6976,7 @@ var $;
 		}
 		Add_submit(){
 			const obj = new this.$.$mol_button_minor();
-			(obj.hint) = () => ((this.$.$mol_locale.text("$gd_canary_Add_submit_hint")));
+			(obj.hint) = () => ((this.$.$mol_locale.text("$giper_canary_Add_submit_hint")));
 			(obj.click) = (next) => ((this.add_submit(next)));
 			(obj.sub) = () => ([(this.Add_submit_icon())]);
 			return obj;
@@ -7046,7 +7046,7 @@ var $;
 			return obj;
 		}
 		waiting_hint(){
-			return (this.$.$mol_locale.text("$gd_canary_waiting_hint"));
+			return (this.$.$mol_locale.text("$giper_canary_waiting_hint"));
 		}
 		target_moment(id, next){
 			if(next !== undefined) return next;
@@ -7078,7 +7078,7 @@ var $;
 			return obj;
 		}
 		title(){
-			return (this.$.$mol_locale.text("$gd_canary_title"));
+			return (this.$.$mol_locale.text("$giper_canary_title"));
 		}
 		targets(next){
 			if(next !== undefined) return next;
@@ -7109,30 +7109,30 @@ var $;
 			return [(this.Target_list())];
 		}
 	};
-	($mol_mem(($.$gd_canary.prototype), "Theme"));
-	($mol_mem(($.$gd_canary.prototype), "Status_total"));
-	($mol_mem(($.$gd_canary.prototype), "add_url"));
-	($mol_mem(($.$gd_canary.prototype), "add_submit"));
-	($mol_mem(($.$gd_canary.prototype), "Add_url"));
-	($mol_mem(($.$gd_canary.prototype), "add_title"));
-	($mol_mem(($.$gd_canary.prototype), "Add_title"));
-	($mol_mem(($.$gd_canary.prototype), "Add_submit_icon"));
-	($mol_mem(($.$gd_canary.prototype), "Add_submit"));
-	($mol_mem(($.$gd_canary.prototype), "Add"));
-	($mol_mem(($.$gd_canary.prototype), "Lights"));
-	($mol_mem_key(($.$gd_canary.prototype), "Target_status"));
-	($mol_mem_key(($.$gd_canary.prototype), "Target_url"));
-	($mol_mem_key(($.$gd_canary.prototype), "Target_remove_icon"));
-	($mol_mem_key(($.$gd_canary.prototype), "Target_remove"));
-	($mol_mem_key(($.$gd_canary.prototype), "Target_main"));
-	($mol_mem_key(($.$gd_canary.prototype), "target_message"));
-	($mol_mem_key(($.$gd_canary.prototype), "Target_message"));
-	($mol_mem_key(($.$gd_canary.prototype), "target_moment"));
-	($mol_mem_key(($.$gd_canary.prototype), "Target_moment"));
-	($mol_mem_key(($.$gd_canary.prototype), "Target"));
-	($mol_mem(($.$gd_canary.prototype), "Target_list"));
-	($mol_mem(($.$gd_canary.prototype), "targets"));
-	($mol_mem_key(($.$gd_canary.prototype), "target_result"));
+	($mol_mem(($.$giper_canary.prototype), "Theme"));
+	($mol_mem(($.$giper_canary.prototype), "Status_total"));
+	($mol_mem(($.$giper_canary.prototype), "add_url"));
+	($mol_mem(($.$giper_canary.prototype), "add_submit"));
+	($mol_mem(($.$giper_canary.prototype), "Add_url"));
+	($mol_mem(($.$giper_canary.prototype), "add_title"));
+	($mol_mem(($.$giper_canary.prototype), "Add_title"));
+	($mol_mem(($.$giper_canary.prototype), "Add_submit_icon"));
+	($mol_mem(($.$giper_canary.prototype), "Add_submit"));
+	($mol_mem(($.$giper_canary.prototype), "Add"));
+	($mol_mem(($.$giper_canary.prototype), "Lights"));
+	($mol_mem_key(($.$giper_canary.prototype), "Target_status"));
+	($mol_mem_key(($.$giper_canary.prototype), "Target_url"));
+	($mol_mem_key(($.$giper_canary.prototype), "Target_remove_icon"));
+	($mol_mem_key(($.$giper_canary.prototype), "Target_remove"));
+	($mol_mem_key(($.$giper_canary.prototype), "Target_main"));
+	($mol_mem_key(($.$giper_canary.prototype), "target_message"));
+	($mol_mem_key(($.$giper_canary.prototype), "Target_message"));
+	($mol_mem_key(($.$giper_canary.prototype), "target_moment"));
+	($mol_mem_key(($.$giper_canary.prototype), "Target_moment"));
+	($mol_mem_key(($.$giper_canary.prototype), "Target"));
+	($mol_mem(($.$giper_canary.prototype), "Target_list"));
+	($mol_mem(($.$giper_canary.prototype), "targets"));
+	($mol_mem_key(($.$giper_canary.prototype), "target_result"));
 
 
 ;
@@ -8017,7 +8017,7 @@ var $;
 (function ($) {
     var $$;
     (function ($$) {
-        class $gd_canary extends $.$gd_canary {
+        class $giper_canary extends $.$giper_canary {
             targets(next) {
                 return this.$.$mol_state_local.value('targets', next) ?? {};
             }
@@ -8087,20 +8087,20 @@ var $;
         }
         __decorate([
             $mol_mem
-        ], $gd_canary.prototype, "checking", null);
+        ], $giper_canary.prototype, "checking", null);
         __decorate([
             $mol_mem_key
-        ], $gd_canary.prototype, "target_rows", null);
+        ], $giper_canary.prototype, "target_rows", null);
         __decorate([
             $mol_mem
-        ], $gd_canary.prototype, "status_total", null);
+        ], $giper_canary.prototype, "status_total", null);
         __decorate([
             $mol_mem_key
-        ], $gd_canary.prototype, "target_status", null);
+        ], $giper_canary.prototype, "target_status", null);
         __decorate([
             $mol_mem_key
-        ], $gd_canary.prototype, "target_title", null);
-        $$.$gd_canary = $gd_canary;
+        ], $giper_canary.prototype, "target_title", null);
+        $$.$giper_canary = $giper_canary;
     })($$ = $.$$ || ($.$$ = {}));
 })($ || ($ = {}));
 
@@ -8110,7 +8110,7 @@ var $;
 (function ($) {
     var $$;
     (function ($$) {
-        $mol_style_define($gd_canary, {
+        $mol_style_define($giper_canary, {
             Add: {
                 flex: {
                     shrink: 1,

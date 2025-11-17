@@ -218,7 +218,7 @@ $mol_gallery $mol_view
 			flexGrow <= side_size* \1
 		items <= side_items* /$mol_view
 
-$gd_canary $mol_page
+$giper_canary $mol_page
 	title @ \Giper Canary
 	targets? *
 	target_result*? 1

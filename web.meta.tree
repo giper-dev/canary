@@ -17,16 +17,6 @@
 	pack apxu git \https://github.com/ApxuTechTop/apxu
 	pack bog git \https://github.com/best-online-games/bog.git
 	pack mws git \https://github.com/reatailret/milkywaystd_mol.git
-\/gd
-	pack balls git \https://github.com/giper-dev/balls.git
-	pack bot git \https://github.com/giper-dev/bot.git
-	pack canary git \https://github.com/giper-dev/canary.git
-	pack iq git \https://github.com/giper-dev/iq.git
-	pack lines git \https://github.com/giper-dev/lines.git
-	pack lingua git \https://github.com/giper-dev/lingua.git
-	pack player git \https://github.com/giper-dev/player.git
-	pack search git \https://github.com/giper-dev/search.git
-	pack web git \https://github.com/giper-dev/web.git
 \/mol
 	pack icon git \https://github.com/nin-jin/mol_icon.git
 \/mol/view

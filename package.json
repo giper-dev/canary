@@ -1,5 +1,5 @@
 {
-  "name": "gd_canary",
+  "name": "giper_canary",
   "version": "0.0.1",
   "exports": {
     "node": {
@@ -15,8 +15,8 @@
   "browser": "./web.js",
   "types": "./web.d.ts",
   "keywords": [
-    "$gd_canary",
-    "$gd",
+    "$giper_canary",
+    "$giper",
     "$mol_page",
     "$mol",
     "$mol_view_view",

@@ -2444,112 +2444,112 @@ declare namespace $ {
 
 declare namespace $ {
 
-	type $mol_chip__title_gd_canary_1 = $mol_type_enforce<
-		ReturnType< $gd_canary['status_total'] >
+	type $mol_chip__title_giper_canary_1 = $mol_type_enforce<
+		ReturnType< $giper_canary['status_total'] >
 		,
 		ReturnType< $mol_chip['title'] >
 	>
-	type $mol_string__hint_gd_canary_2 = $mol_type_enforce<
+	type $mol_string__hint_giper_canary_2 = $mol_type_enforce<
 		string
 		,
 		ReturnType< $mol_string['hint'] >
 	>
-	type $mol_string__value_gd_canary_3 = $mol_type_enforce<
-		ReturnType< $gd_canary['add_url'] >
+	type $mol_string__value_giper_canary_3 = $mol_type_enforce<
+		ReturnType< $giper_canary['add_url'] >
 		,
 		ReturnType< $mol_string['value'] >
 	>
-	type $mol_string__submit_gd_canary_4 = $mol_type_enforce<
-		ReturnType< $gd_canary['add_submit'] >
+	type $mol_string__submit_giper_canary_4 = $mol_type_enforce<
+		ReturnType< $giper_canary['add_submit'] >
 		,
 		ReturnType< $mol_string['submit'] >
 	>
-	type $mol_string__hint_gd_canary_5 = $mol_type_enforce<
+	type $mol_string__hint_giper_canary_5 = $mol_type_enforce<
 		string
 		,
 		ReturnType< $mol_string['hint'] >
 	>
-	type $mol_string__value_gd_canary_6 = $mol_type_enforce<
-		ReturnType< $gd_canary['add_title'] >
+	type $mol_string__value_giper_canary_6 = $mol_type_enforce<
+		ReturnType< $giper_canary['add_title'] >
 		,
 		ReturnType< $mol_string['value'] >
 	>
-	type $mol_string__submit_gd_canary_7 = $mol_type_enforce<
-		ReturnType< $gd_canary['add_submit'] >
+	type $mol_string__submit_giper_canary_7 = $mol_type_enforce<
+		ReturnType< $giper_canary['add_submit'] >
 		,
 		ReturnType< $mol_string['submit'] >
 	>
-	type $mol_button_minor__hint_gd_canary_8 = $mol_type_enforce<
+	type $mol_button_minor__hint_giper_canary_8 = $mol_type_enforce<
 		string
 		,
 		ReturnType< $mol_button_minor['hint'] >
 	>
-	type $mol_button_minor__click_gd_canary_9 = $mol_type_enforce<
-		ReturnType< $gd_canary['add_submit'] >
+	type $mol_button_minor__click_giper_canary_9 = $mol_type_enforce<
+		ReturnType< $giper_canary['add_submit'] >
 		,
 		ReturnType< $mol_button_minor['click'] >
 	>
-	type $mol_button_minor__sub_gd_canary_10 = $mol_type_enforce<
+	type $mol_button_minor__sub_giper_canary_10 = $mol_type_enforce<
 		readonly(any)[]
 		,
 		ReturnType< $mol_button_minor['sub'] >
 	>
-	type $mol_view__sub_gd_canary_11 = $mol_type_enforce<
+	type $mol_view__sub_giper_canary_11 = $mol_type_enforce<
 		readonly(any)[]
 		,
 		ReturnType< $mol_view['sub'] >
 	>
-	type $mol_view__sub_gd_canary_12 = $mol_type_enforce<
+	type $mol_view__sub_giper_canary_12 = $mol_type_enforce<
 		readonly(any)[]
 		,
 		ReturnType< $mol_view['sub'] >
 	>
-	type $mol_link__title_gd_canary_13 = $mol_type_enforce<
-		ReturnType< $gd_canary['target_title'] >
+	type $mol_link__title_giper_canary_13 = $mol_type_enforce<
+		ReturnType< $giper_canary['target_title'] >
 		,
 		ReturnType< $mol_link['title'] >
 	>
-	type $mol_link__uri_gd_canary_14 = $mol_type_enforce<
-		ReturnType< $gd_canary['target_url'] >
+	type $mol_link__uri_giper_canary_14 = $mol_type_enforce<
+		ReturnType< $giper_canary['target_url'] >
 		,
 		ReturnType< $mol_link['uri'] >
 	>
-	type $mol_button_minor__click_gd_canary_15 = $mol_type_enforce<
-		ReturnType< $gd_canary['target_remove'] >
+	type $mol_button_minor__click_giper_canary_15 = $mol_type_enforce<
+		ReturnType< $giper_canary['target_remove'] >
 		,
 		ReturnType< $mol_button_minor['click'] >
 	>
-	type $mol_button_minor__sub_gd_canary_16 = $mol_type_enforce<
+	type $mol_button_minor__sub_giper_canary_16 = $mol_type_enforce<
 		readonly(any)[]
 		,
 		ReturnType< $mol_button_minor['sub'] >
 	>
-	type $mol_view__sub_gd_canary_17 = $mol_type_enforce<
+	type $mol_view__sub_giper_canary_17 = $mol_type_enforce<
 		readonly(any)[]
 		,
 		ReturnType< $mol_view['sub'] >
 	>
-	type $mol_view__sub_gd_canary_18 = $mol_type_enforce<
+	type $mol_view__sub_giper_canary_18 = $mol_type_enforce<
 		readonly(any)[]
 		,
 		ReturnType< $mol_view['sub'] >
 	>
-	type $mol_view__sub_gd_canary_19 = $mol_type_enforce<
+	type $mol_view__sub_giper_canary_19 = $mol_type_enforce<
 		readonly(any)[]
 		,
 		ReturnType< $mol_view['sub'] >
 	>
-	type $mol_list__rows_gd_canary_20 = $mol_type_enforce<
-		ReturnType< $gd_canary['target_rows'] >
+	type $mol_list__rows_giper_canary_20 = $mol_type_enforce<
+		ReturnType< $giper_canary['target_rows'] >
 		,
 		ReturnType< $mol_list['rows'] >
 	>
-	type $mol_gallery__items_gd_canary_21 = $mol_type_enforce<
-		ReturnType< $gd_canary['target_list'] >
+	type $mol_gallery__items_giper_canary_21 = $mol_type_enforce<
+		ReturnType< $giper_canary['target_list'] >
 		,
 		ReturnType< $mol_gallery['items'] >
 	>
-	export class $gd_canary extends $mol_page {
+	export class $giper_canary extends $mol_page {
 		checking( ): any
 		Theme( ): $mol_theme_auto
 		status_total( ): string
@@ -2575,7 +2575,7 @@ declare namespace $ {
 		target_message( id: any, next?: string ): string
 		Target_message( id: any): $mol_view
 		waiting_hint( ): string
-		target_moment( id: any, next?: ReturnType< $gd_canary['waiting_hint'] > ): ReturnType< $gd_canary['waiting_hint'] >
+		target_moment( id: any, next?: ReturnType< $giper_canary['waiting_hint'] > ): ReturnType< $giper_canary['waiting_hint'] >
 		Target_moment( id: any): $mol_view
 		target_rows( id: any): readonly(any)[]
 		Target( id: any): $mol_list
@@ -2595,7 +2595,7 @@ declare namespace $ {
 
 //# sourceMappingURL=canary.view.tree.d.ts.map
 declare namespace $.$$ {
-    class $gd_canary extends $.$gd_canary {
+    class $giper_canary extends $.$giper_canary {
         targets(next?: Record<string, {
             title: string;
         }>): Record<string, {

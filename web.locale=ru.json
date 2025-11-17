@@ -1,8 +1,8 @@
 {
-	"$gd_canary_Add_submit_hint": "Добавить",
-	"$gd_canary_Add_title_hint": "Название",
-	"$gd_canary_Add_url_hint": "URL",
-	"$gd_canary_title": "Гипер Канарейка",
-	"$gd_canary_waiting_hint": "Ждём...",
+	"$giper_canary_Add_submit_hint": "Добавить",
+	"$giper_canary_Add_title_hint": "Название",
+	"$giper_canary_Add_url_hint": "URL",
+	"$giper_canary_title": "Гипер Канарейка",
+	"$giper_canary_waiting_hint": "Ждём...",
 	"$mol_lights_toggle_hint": "Переключить освещение"
 }
