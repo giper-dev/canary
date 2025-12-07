@@ -187,7 +187,6 @@
     "$mol_time_base"
   ],
   "dependencies": {
-    "internal": "*",
     "jsdom": "*"
   }
 }
